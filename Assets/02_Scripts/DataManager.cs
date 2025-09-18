@@ -14,7 +14,7 @@ public class DataManager : MonoBehaviour
     void Start()
     {
         LoadGame();
-        //myQuestions[0].responses.Add("something new")
+        myQuestions[index].responses.Add("something new");
     }
 
     // Update is called once per frame
