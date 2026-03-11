@@ -13,6 +13,7 @@ public class DataManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        JSONManager.SayHello();
         LoadGame();
         myQuestions[index].responses.Add("something new");
     }

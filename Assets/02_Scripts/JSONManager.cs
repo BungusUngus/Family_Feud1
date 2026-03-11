@@ -20,6 +20,7 @@ public static class JSONManager
     /// <param name="data"></param>
     public static void SaveToJSON(SavedData data)
     {
+        //directory is folder location
         string directory = Application.persistentDataPath + "/SavedData/";
         if (!Directory.Exists(directory)) Directory.CreateDirectory(directory);
 
